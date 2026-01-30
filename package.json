@@ -1,0 +1,32 @@
+{
+  "name": "working-with-rest-apis-the-basics",
+  "version": "1.0.0",
+  "description": "\"It is all about working with REST APIs (The Basics)\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chukwutem-emi/Working-With-REST-APIs-The-Basics.git"
+  },
+  "keywords": [
+    "\"REST",
+    "APIs\"",
+    "\"Basics\""
+  ],
+  "author": "Chukwutem Stephen Emi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chukwutem-emi/Working-With-REST-APIs-The-Basics/issues"
+  },
+  "homepage": "https://github.com/chukwutem-emi/Working-With-REST-APIs-The-Basics#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
