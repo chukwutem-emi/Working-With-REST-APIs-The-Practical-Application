@@ -19,6 +19,7 @@ module.exports = (req, res, next) => {
     if (!decodedToken) {
         return res.status(401).json({message: "Not authenticated, please login"});
     }
+    // Attach the userId to req
     req.userId = decodedToken.userId;
     next();
 };
